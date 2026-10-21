@@ -3,15 +3,50 @@ body{
     margin: 0;
     background-color: white;
 
-#Inicio{
-    .menu{
-        background-color: #164194;
-        display: flex;
-        flex-direction: row;
-    }
-    .lista1, .lista2{
-        display: flex;
-        flex-direction: row;
 
+ .menu-fundo{
+    background-color: #1D448F;
+ }
+
+ .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .lista-nav1{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    
+    .lista-nav{
+        border-left: 1px solid rgba(255, 255, 255, 0.4); 
+        padding-left: 13px;
+        list-style: none;
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .lista1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .lista2{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
     }
 }
